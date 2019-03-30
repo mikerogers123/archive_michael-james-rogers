@@ -1,4 +1,2 @@
-/* You can add global styles to this file, and also import other style files */
-body {
-    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
-}
+@import './styles/typography.css'; 
+@import './styles/background.css';

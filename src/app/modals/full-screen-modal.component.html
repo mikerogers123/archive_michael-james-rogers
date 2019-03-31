@@ -2,8 +2,8 @@
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-body">
-                <i class="fas fa-times close" data-dismiss="modal"></i>
-                <ng-content></ng-content>
+                <ng-content select="[dismiss]"></ng-content>
+                <ng-content select="[content]"></ng-content>
             </div>
         </div>
     </div>

@@ -1,19 +1,19 @@
+import { IconsModule } from './../icons/icons.module';
 import { NgModule } from '@angular/core';
 import { NavBarComponent } from './navbar/navbar.component';
-import { BodyBorderComponent } from './body-border/body-border.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { BorderComponent } from './border/border.component';
 
 @NgModule({
   declarations: [
     NavBarComponent,
-    BodyBorderComponent
+    BorderComponent
   ],
   imports: [
-    FontAwesomeModule
+    IconsModule
   ],
   exports: [
     NavBarComponent,
-    BodyBorderComponent
+    BorderComponent
   ],
   providers: [],
   bootstrap: []

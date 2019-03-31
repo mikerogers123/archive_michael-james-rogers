@@ -1,18 +1,12 @@
-<div class="text-center fixed">
-    <menu-icon data-toggle="modal" data-target="#navbar"></menu-icon>
+<div class="text-center fixed p-1">
+    <menu-icon data-toggle="modal" data-target="#nav-modal"></menu-icon>
 </div>
 
-<div class="modal fade" id="navbar">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-body">
-                <i class="fas fa-times close" data-dismiss="modal"></i>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                </ul>
-            </div>
-        </div>
+<full-screen-modal modalId="nav-modal">
+    <div>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
     </div>
-</div>
+</full-screen-modal>

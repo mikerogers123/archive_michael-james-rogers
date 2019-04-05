@@ -34,3 +34,22 @@
 .inner {
     padding: 1rem;
 }
+
+#bottom-left-corner {
+    width: 0;
+    height: 0;
+    border-bottom: 3rem solid black;
+    border-right: 3rem solid transparent;
+    bottom: 0;
+    position: fixed;
+}
+
+#bottom-right-corner {
+    width: 0;
+    height: 0;
+    border-bottom: 3rem solid black;
+    border-left: 3rem solid transparent;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

@@ -1,12 +1,12 @@
 #top, #bottom, #left, #right {
 	background: black;
-	position: fixed;
+    position: fixed;
 }
     
 #left, #right {
     top: 0;
     bottom: 0;
-	width: 1rem;
+	width: 0.5rem;
 }
 
 #left { 
@@ -20,7 +20,7 @@
 #top, #bottom {
     left: 0;
     right: 0;
-    height: 1rem;
+    height: 0.5rem;
 }
 
 #top {
@@ -32,24 +32,5 @@
 }
 
 .inner {
-    padding: 1rem;
-}
-
-#bottom-left-corner {
-    width: 0;
-    height: 0;
-    border-bottom: 3rem solid black;
-    border-right: 3rem solid transparent;
-    bottom: 0;
-    position: fixed;
-}
-
-#bottom-right-corner {
-    width: 0;
-    height: 0;
-    border-bottom: 3rem solid black;
-    border-left: 3rem solid transparent;
-    bottom: 0;
-    right: 0;
-    position: fixed;
+    margin: 1rem;
 }

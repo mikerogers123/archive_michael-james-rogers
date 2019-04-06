@@ -1,0 +1,11 @@
+.sm {
+    max-height: 4rem;
+}
+
+.md {
+    max-height: 8rem;
+}
+
+.lg {
+    max-height: 12rem;
+}

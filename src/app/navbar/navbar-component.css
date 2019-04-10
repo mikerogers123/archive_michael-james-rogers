@@ -23,6 +23,13 @@
     padding-right: 0;
 }
 
+@media(max-width: 768px) {
+    li {
+        text-align: center;
+        font-size: 2rem;
+    }
+} 
+
 /* face {
     position: absolute;
     left: 50%;

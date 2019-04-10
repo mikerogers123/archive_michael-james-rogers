@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BorderModule } from './border/border.module';
+import { ProfileModule } from './profile/profile.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BorderModule } from './border/border.module';
     AppRoutingModule,
     BrowserAnimationsModule,
     BorderModule,
-    NavbarModule
+    NavbarModule,
+    ProfileModule
   ],
   providers: [],
   bootstrap: [AppComponent]

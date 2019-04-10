@@ -2,3 +2,11 @@ body {
     font-family: 'Fjalla One', sans-serif !important;
     color: black
 }
+
+a {
+    color: slategray !important;
+}
+
+a:hover {
+    color: black !important;
+}

@@ -1,5 +1,5 @@
 body {
-    font-family: 'Fjalla One', sans-serif !important;
+    font-family: 'Concert One', sans-serif !important;
     color: black
 }
 
@@ -9,4 +9,8 @@ a {
 
 a:hover {
     color: black !important;
+}
+
+h3 {
+    color: darkred;
 }

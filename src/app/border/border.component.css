@@ -1,6 +1,7 @@
 #top, #bottom, #left, #right {
 	background: black;
     position: fixed;
+    z-index: 999;
 }
     
 #left, #right {

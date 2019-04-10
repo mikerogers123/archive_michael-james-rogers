@@ -1,14 +1,17 @@
+import { DownloadIconComponent } from './download-icon/download-icon.component';
 import { NgModule } from '@angular/core';
 import { MenuIconComponent } from './menu-icon/menu-icon.component';
 
 @NgModule({
   declarations: [
-    MenuIconComponent
+    MenuIconComponent,
+    DownloadIconComponent
   ],
   imports: [
   ],
   exports: [
-    MenuIconComponent
+    MenuIconComponent,
+    DownloadIconComponent
   ],
   providers: [],
   bootstrap: []

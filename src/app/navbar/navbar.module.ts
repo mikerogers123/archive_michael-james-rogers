@@ -8,8 +8,7 @@ import { ImagesModule } from '../images/images.module';
     NavBarComponent
   ],
   imports: [
-    IconsModule,
-    ImagesModule
+    IconsModule
   ],
   exports: [
     NavBarComponent

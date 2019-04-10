@@ -12,9 +12,15 @@
     color: slategrey;
 }
 
-/* change the color of active or hovered links */
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link,
 .navbar-custom menu-icon:hover {
     color: black;
 }
+
+/* face {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+} */

@@ -1,5 +1,6 @@
 .navbar-custom {
-    background-color: whitesmoke;
+    background-color: transparent;
+    text-transform: uppercase;
 }
 
 .navbar-custom .navbar-brand,
@@ -29,3 +30,8 @@
         font-size: 2rem;
     }
 } 
+
+li .active {
+    background-color: slategray;
+    color: whitesmoke;
+}

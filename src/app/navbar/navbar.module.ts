@@ -3,6 +3,7 @@ import { NavBarComponent } from './navbar.component';
 import { NgModule } from '@angular/core';
 import { ImagesModule } from '../images/images.module';
 import { CvDownloadLinkComponent } from './cv-download-link/cv-download-link.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -10,7 +11,8 @@ import { CvDownloadLinkComponent } from './cv-download-link/cv-download-link.com
     CvDownloadLinkComponent
   ],
   imports: [
-    IconsModule
+    IconsModule,
+    RouterModule
   ],
   exports: [
     NavBarComponent

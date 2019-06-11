@@ -1,16 +1,16 @@
 body {
-    font-family: 'Concert One', sans-serif !important;
-    color: black
+    font-family: 'Abril Fatface', cursive !important;
+    color: whitesmoke !important;
 }
 
 a {
-    color: slategray !important;
+    color: whitesmoke !important;
 }
 
 a:hover {
-    color: black !important;
+    color: lightgrey !important;
 }
 
-h3 {
+/* h3 {
     color: darkred;
-}
+} */

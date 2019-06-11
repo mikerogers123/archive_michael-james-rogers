@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { BorderModule } from './border/border.module';
 import { ProfileModule } from './profile/profile.module';
+import { SkillsModule } from './skills/skills.module';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { ProfileModule } from './profile/profile.module';
     BrowserAnimationsModule,
     BorderModule,
     NavbarModule,
-    ProfileModule
+    ProfileModule,
+    SkillsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

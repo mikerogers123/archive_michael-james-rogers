@@ -1,22 +1,11 @@
 .navbar-custom {
     background-color: transparent;
     text-transform: uppercase;
-}
-
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text,
-.navbar-custom menu-icon {
-    color:slategrey;
+    font-size: larger;
 }
 
 .navbar-custom .navbar-nav .nav-link {
-    color: slategrey;
-}
-
-.navbar-custom .nav-item.active .nav-link,
-.navbar-custom .nav-item:hover .nav-link,
-.navbar-custom menu-icon:hover {
-    color: black;
+    color: lightgrey;
 }
 
 .navbar {
@@ -32,6 +21,5 @@
 } 
 
 li .active {
-    background-color: slategray;
     color: whitesmoke;
 }

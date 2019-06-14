@@ -8,9 +8,5 @@ a {
 }
 
 a:hover {
-    color: lightgrey !important;
+    color: slategray !important;
 }
-
-/* h3 {
-    color: darkred;
-} */

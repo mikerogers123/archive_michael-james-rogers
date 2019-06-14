@@ -1,0 +1,24 @@
+#btn,
+#btn a,
+#btn i {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    border-radius: 0rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-color: whitesmoke !important;
+    min-width: 10rem;
+    color: whitesmoke !important;
+    padding: 0 !important;
+    padding: .375rem .75rem !important;
+}
+
+#btn:hover,
+#btn a:hover,
+#btn i:hover {
+    background-color: whitesmoke !important;
+    color: black !important;
+}

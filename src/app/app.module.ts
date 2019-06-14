@@ -9,19 +9,21 @@ import { ProfileModule } from './profile/profile.module';
 import { SkillsModule } from './skills/skills.module';
 
 @NgModule({
-  declarations: [
-    AppComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    BorderModule,
-    NavbarModule,
-    ProfileModule,
-    SkillsModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+   declarations: [
+      AppComponent
+   ],
+   imports: [
+      BrowserModule,
+      AppRoutingModule,
+      BrowserAnimationsModule,
+      BorderModule,
+      NavbarModule,
+      ProfileModule,
+      SkillsModule
+   ],
+   providers: [],
+   bootstrap: [
+      AppComponent
+   ]
 })
 export class AppModule { }

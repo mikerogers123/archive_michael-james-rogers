@@ -8,5 +8,5 @@ a {
 }
 
 a:hover {
-    color: slategray !important;
+    text-decoration: overline !important;
 }
